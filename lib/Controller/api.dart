@@ -10,7 +10,6 @@ class ApiController extends GetxController {
   void onInit() {
     fetchQuotes();
     super.onInit();
-
   }
 
   void fetchQuotes() async {
