@@ -9,9 +9,10 @@ class ApiService{
 
     if(response.statusCode == 200){
       return response.body;
+
     }
     else{
-      return null;
+       print("NOT Run API----------------------------------------");
     }
   }
 }

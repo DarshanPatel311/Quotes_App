@@ -5,6 +5,7 @@ import 'package:quotes_app/view/Home/home_screen.dart';
 import 'package:quotes_app/view/Theme_screen/theme_screen.dart';
 import 'package:quotes_app/view/categories/categories_screen.dart';
 import 'package:quotes_app/view/favorites/favorites_screen.dart';
+import 'package:quotes_app/view/love_screen.dart';
 
 
 void  main(){
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/2', page: () => CategoriesScreen(),transition:Transition.rightToLeft),
         GetPage(name: '/3', page: () => ThemeScreen(),transition:Transition.downToUp ),
         GetPage(name: '/4', page: () => FavoritesScreen(),transition:Transition.downToUp ),
+        GetPage(name: '/love', page: () => LoveScreen(),transition:Transition.downToUp ),
 
       ],
     );
