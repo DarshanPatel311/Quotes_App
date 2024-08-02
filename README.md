@@ -1,16 +1,88 @@
-# quotes_app
+# Quotes App
 
-A new Flutter project.
+A simple and elegant quotes app built using Flutter, GetX, and SQFlite for local database management.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display random quotes
+- Save favorite quotes
+- View all saved quotes
+- Smooth and responsive UI using GetX state management
+- Persistent storage with SQFlite
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/quotes_app.git
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Change to the project directory:
+    ```bash
+    cd quotes_app
+    ```
+
+3. Get the dependencies:
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Dependencies
+
+- [Flutter](https://flutter.dev)
+- [GetX](https://pub.dev/packages/get)
+- [SQFlite](https://pub.dev/packages/sqflite)
+
+## Project Structure
+
+```
+quotes_app/
+|- lib/
+|  |- controllers/
+|  |- models/
+|  |- services/
+|  |- views/
+|  |- main.dart
+|- assets/
+|- pubspec.yaml
+|- README.md
+```
+
+- **controllers/**: Contains GetX controllers for state management.
+- **models/**: Contains data models.
+- **services/**: Contains services for data handling.
+- **views/**: Contains the UI of the app.
+
+## Usage
+
+- Open the app to view a random quote.
+- Tap the "Save" button to save a quote to the database.
+- Go to the "Favorites" screen to view all saved quotes.
+
+## Contributing
+
+Contributions are welcome! Please create an issue or submit a pull request.
+
+### Screenshorts
+
+
+<p align ='center'>
+  <img src='https://github.com/user-attachments/assets/a15dd9de-8f6f-4ef1-8105-5132574ee4ba' width=240>
+    <img src='https://github.com/user-attachments/assets/f88e211a-8757-4138-903d-4cc84a7daf4a' width=240>
+      <img src='https://github.com/user-attachments/assets/d832863b-23e9-46bc-9269-4fc909b18d50' width=240>
+        <img src='https://github.com/user-attachments/assets/5f596afb-2e4b-44c2-bdba-dd52245ef57e' width=240>
+          <img src='https://github.com/user-attachments/assets/671b6871-fb33-4bc5-86ee-df67d41f6595' width=240>
+  
+</p>
+
+
+### video
+
+
+https://github.com/user-attachments/assets/cf5cdda2-16b5-4867-a359-26dd3387eb36
+
